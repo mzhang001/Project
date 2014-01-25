@@ -1,0 +1,10 @@
+import sys
+
+filePath = sys.argv[1]
+delimiter = sys.argv[2]
+
+print filePath
+print delimiter
+
+names = filePath.split(delimiter)
+print names[0]

@@ -1,0 +1,3 @@
+HOME_PATH=/home/mz342/github/lexical/src
+
+java -classpath ${HOME_PATH} ExecuteMe dear
