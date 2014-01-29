@@ -1,6 +1,6 @@
-HOME_PATH=/home/mz342/github/lexical/src
+HOME_PATH=/home/mz342/github/lexical/bin
 PROJECT_PATH=/home/mz342/Project
-OUT_DIR=${PROJECT_PATH}/output/bnc
+OUT_DIR=${PROJECT_PATH}/output/bnc_withoutTarget
 
 while read word
 do

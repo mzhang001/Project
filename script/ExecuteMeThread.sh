@@ -9,6 +9,7 @@ while read gramFolder;
 do
     for file in ${gramFolder}/*
     do
+	echo $file
 	IFS='/' read -a pathTokens <<< ${file};
 	IFS=' ' read -a pathTokens <<< ${pathTokens[0]};
 	fileName=${pathTokens[5]}
@@ -23,12 +24,9 @@ do
 	    IFS=' ' read -a data <<< ${data[0]};
 	    data=${PROJECT_HOME}/${data[0]}
 	    echo ${gramName}
-	    while read targetWord
-	    do
-		echo ${targetWord}
-		python gramExtractor.py ${data} ${targetWord} ${outputDir}/${gramName}/
-		#echo ${targetWord}
-	    done < ${lstDir}/word.txt
+
+	    python gramExtractorThread.py ${data} ${outputDir}/${gramName}/
+		
 	    rm ${data}
 	    rm ${PROJECT_HOME}/${fileName}
 	    #rm 
@@ -36,7 +34,7 @@ do
 	#mv ${file} ${PROJECT_HOME}
 	#rm 
     done
-done < ${lstDir}/gramList.txt
+done < ${lstDir}/gramThreadList.txt
 
 # for f in ${PROJECT_HOME}/google_books
 # do
