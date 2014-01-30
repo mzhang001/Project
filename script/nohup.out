@@ -1791,3 +1791,259 @@ rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-c_.gz'
 computer
 mouse
 dear
+do
+express
+Traceback (most recent call last):
+  File "gramExtractor.py", line 40, in <module>
+    line = f.readline()
+IOError: [Errno 116] Stale NFS file handle
+impress
+Traceback (most recent call last):
+  File "gramExtractor.py", line 16, in <module>
+    f = open(fileName,"r")
+IOError: [Errno 2] No such file or directory: '/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ch'
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ch': No such file or directory
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ch.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ci.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ci.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cj.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cj.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ck.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ck.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cl.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cl.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cm.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cm.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cn.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cn.gz': No such file or directory
+
+gzip: /home/mz342/Project/googlebooks-eng-all-2gram-20120701-co: Disk quota exceeded
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-co.gz
+2gram
+computer
+Traceback (most recent call last):
+  File "gramExtractor.py", line 16, in <module>
+    f = open(fileName,"r")
+IOError: [Errno 2] No such file or directory: '/home/mz342/Project/googlebooks-eng-all-2gram-20120701-co'
+mouse
+Traceback (most recent call last):
+  File "gramExtractor.py", line 16, in <module>
+    f = open(fileName,"r")
+IOError: [Errno 2] No such file or directory: '/home/mz342/Project/googlebooks-eng-all-2gram-20120701-co'
+dear
+Traceback (most recent call last):
+  File "gramExtractor.py", line 16, in <module>
+    f = open(fileName,"r")
+IOError: [Errno 2] No such file or directory: '/home/mz342/Project/googlebooks-eng-all-2gram-20120701-co'
+do
+Traceback (most recent call last):
+  File "gramExtractor.py", line 16, in <module>
+    f = open(fileName,"r")
+IOError: [Errno 2] No such file or directory: '/home/mz342/Project/googlebooks-eng-all-2gram-20120701-co'
+express
+Traceback (most recent call last):
+  File "gramExtractor.py", line 16, in <module>
+    f = open(fileName,"r")
+IOError: [Errno 2] No such file or directory: '/home/mz342/Project/googlebooks-eng-all-2gram-20120701-co'
+impress
+Traceback (most recent call last):
+  File "gramExtractor.py", line 16, in <module>
+    f = open(fileName,"r")
+IOError: [Errno 2] No such file or directory: '/home/mz342/Project/googlebooks-eng-all-2gram-20120701-co'
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-co': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-_CONJ_.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-_CONJ_.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cp.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cp.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cq.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cq.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cr.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cr.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cs.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cs.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ct.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-ct.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cu.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cu.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cv.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cv.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cw.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cw.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cx.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cx.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cy.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cy.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cz.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-cz.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-da.gz
+2gram
+computer
+mouse
+Traceback (most recent call last):
+  File "gramExtractor.py", line 42, in <module>
+    out_f.close()
+IOError: [Errno 122] Disk quota exceeded
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-da.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-db.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-db.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-dc.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-dc.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-dd.gz
+2gram
+computer
+mouse
+dear
+do
+express
+impress
+rm: cannot remove `/home/mz342/Project/googlebooks-eng-all-2gram-20120701-dd.gz': No such file or directory
+/home/mz342/Project/googlebooks-eng-all-2gram-20120701-de.gz
+2gram
+computer
+mouse
+dear
+do

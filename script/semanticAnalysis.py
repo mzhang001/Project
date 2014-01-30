@@ -1,9 +1,9 @@
 import math
 
-startYear = 1950
+startYear = 1800
 endYear = 2009
-space = 10
-targetWord = "mouse"
+space = 5
+targetWord = "dear"
 
 intervals = (endYear - startYear) / space + 1
 
@@ -13,7 +13,7 @@ def yearToIndex(year):
 def indexToYear(index):
 	return index * space + startYear
 
-inputFile = "/home/mz342/Project/output/5gram/mouse.txt"
+inputFile = "/home/mz342/Project/output/5gram/" + targetWord + ".txt"
 f = open(inputFile,'r')
 dictmap = []
 
@@ -59,10 +59,11 @@ def get_cosine(vec1, vec2):
 
 for i in range(intervals - 1):
 	year = indexToYear(i)
+	print year," ",indexToYear(i+1)," ",get_cosine(dictmap[i],dictmap[i+1])
 	#for j in range(i + 1,intervals):
-	#	print year," ",indexToYear(j)," ",get_cosine(dictmap[i],dictmap[j])
-	for key in dictmap[i]:
-		print year," ",key," ",dictmap[i][key]
+	#	print str(year), " ", str(indexToYear(j)), " ", get_cosine(dictmap[i],dictmap[j])	
+	#for key in dictmap[i]:
+	#	print year," ",key," ",dictmap[i][key]
 
 
 
